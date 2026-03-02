@@ -1,57 +1,67 @@
 body {
-  font-family: "Georgia", serif;
-  margin: 0;
-  background: #f8f8f8;
-  color: #222;
-  line-height: 1.7;
+    font-family: "Georgia", serif;
+    margin: 0;
+    background-color: #f8f9fb;
+    color: #1a1a1a;
+    line-height: 1.7;
 }
 
-.header {
-  background: #111;
-  color: white;
-  text-align: center;
-  padding: 40px 20px;
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
 }
 
-.subtitle {
-  font-size: 16px;
-  color: #ccc;
+header {
+    background: #0f172a;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
 }
 
-.nav {
-  background: #ffffff;
-  text-align: center;
-  padding: 15px;
-  border-bottom: 1px solid #ddd;
+header h1 {
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 1px;
 }
 
-.nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #222;
-  font-weight: 600;
-}
-
-.nav a:hover {
-  color: #8b0000;
-}
-
-.content {
-  max-width: 900px;
-  margin: auto;
-  padding: 40px;
-  background: white;
+header p {
+    opacity: 0.9;
+    font-size: 18px;
 }
 
 h2 {
-  border-bottom: 2px solid #111;
-  padding-bottom: 5px;
-  margin-top: 40px;
+    border-bottom: 2px solid #0f172a;
+    padding-bottom: 5px;
+    margin-top: 40px;
 }
 
-.footer {
-  text-align: center;
-  padding: 20px;
-  background: #111;
-  color: white;
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+a {
+    color: #0f172a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
