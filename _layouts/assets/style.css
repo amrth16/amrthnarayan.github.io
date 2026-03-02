@@ -1,0 +1,57 @@
+body {
+  font-family: "Georgia", serif;
+  margin: 0;
+  background: #f8f8f8;
+  color: #222;
+  line-height: 1.7;
+}
+
+.header {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.nav {
+  background: #ffffff;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  color: #8b0000;
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  background: white;
+}
+
+h2 {
+  border-bottom: 2px solid #111;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
